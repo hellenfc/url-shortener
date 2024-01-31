@@ -14,7 +14,7 @@ export default function Component() {
           <p className="text-gray-200">Enter your long URL below to generate a shortened URL</p>
         </div>
         <div className="space-y-2">
-          <Input className=" text-white placeholder-gray-500" placeholder="Enter your long URL" type="url" />
+          <Input className=" text-white placeholder-gray-500" placeholder="Enter your long URL" type="url" value="https://www.google.com" />
           <Button className="bg-green-600 text-white hover:bg-green-500" type="submit">
             Shorten
           </Button>
@@ -23,7 +23,7 @@ export default function Component() {
           <p className="text-gray-200">Your shortened URL:</p>
           <div className="flex items-center space-x-2">
             <Input className=" text-white" readOnly value="https://short.url" />
-            <Button className="text-green-600 hover:text-green-500" variant="ghost" onClick={copyToClipboard}>
+            <Button className="text-green-600 hover:text-green-500 border-none p-0 min-w-12"  onClick={copyToClipboard}>
             <FontAwesomeIcon icon={faClipboard}  className="h-4 w-4 text-white"/>           
               <span className="sr-only">Copy to clipboard</span>
             </Button>
