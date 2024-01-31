@@ -5,7 +5,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">My Portfolio</h3>
+  <h3 align="center">Url Shortener</h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -32,7 +32,7 @@
 
 ## About The Project
 
-Hellen Fiallos' portfolio website
+Url Shortener
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 ### Built With
@@ -42,6 +42,9 @@ This section should list any major frameworks that you built your project using.
 - [React](https://react.com)
 - [Vite](https://vite.com)
 - [TypeScript](https://typescript.com)
+- [Tailwind CSS](https://tailwind.com)
+- [NextUI](https://nextui.com)
+- [Font Awesome](https://fontawesome.com)
 
 <!-- GETTING STARTED -->
 
