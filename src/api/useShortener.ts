@@ -12,8 +12,8 @@ export function useShortener() {
 
   const initialUrl = async () => {
     try {
-      const response = await axios.get("https://url-shortener-arne.onrender.com/api/first")
-      return response.data
+      const response = await axios.get("https://url-shortener-arne.onrender.com/api/last")
+      return response.data[0]
     } catch (error) {
       console.error(error)
     }
