@@ -52,6 +52,8 @@ This section should list any major frameworks that you built your project using.
 
 Instrictions on setting up your project locally. To get a local copy up and running follow these simple steps.
 
+```npm run dev```
+
 ### Prerequisites
 
 node version 18.0.0 or higher
