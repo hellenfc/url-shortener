@@ -28,8 +28,8 @@ export default function Component() {
   }
 
   return (
-    <div className="dark flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 animate-gradient-x">
-      <div className="max-w-lg w-full space-y-4">
+    <div className="dark flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 animate-gradient-x ">
+      <div className="max-w-lg w-full space-y-4 p-12">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold text-white">URL Shortener</h1>
           <p className="text-gray-200">Enter your long URL below to generate a shortened URL</p>
@@ -44,7 +44,7 @@ export default function Component() {
         </div>
         <div className="space-y-2">
           <p className="text-gray-200">Your shortened URL:</p>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center flex-col justify-end space-x-2 min-w-5 sm:flex-row ">
           <Link
             isExternal
             href={shortenedUrl}
