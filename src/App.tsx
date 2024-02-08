@@ -1,13 +1,13 @@
 import './App.css'
 
-import { NextUIProvider } from '@nextui-org/react'
+import AppProviders from './providers/app-providers'
 import Layout from './components/Layout'
 
 function App() {
   return (
-    <NextUIProvider>
+    <AppProviders>
       <Layout />
-    </NextUIProvider>
+    </AppProviders>
   )
 }
 
