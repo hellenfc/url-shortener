@@ -45,6 +45,8 @@ This section should list any major frameworks that you built your project using.
 - [Tailwind CSS](https://tailwind.com)
 - [NextUI](https://nextui.com)
 - [Font Awesome](https://fontawesome.com)
+- [Jest](https://jest.com)
+- [React Testing Library](https://testing-library.com)
 
 <!-- GETTING STARTED -->
 
